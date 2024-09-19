@@ -1,12 +1,13 @@
 public class Zoo
 {
-    Animal [] animals = new Animal[25];
-    String name;
-    String city;
-    int nbrCages ;
+    public static final int MAX_ANIMALS = 25;
+    public Animal[] animals;
+    public String name;
+    public String city;
+    public int nbrCages;
 
     public Zoo(Animal[] animals, String name, String city, int nbrCages) {
-        this.animals = animals;
+        this.animals = new Animal[MAX_ANIMALS];
         this.name = name;
         this.city = city;
         this.nbrCages = nbrCages;
