@@ -7,7 +7,8 @@ public class ZooManagement {
     String zooName  ;
     Scanner sc = new Scanner(System.in) ;
 
-    /*System.out.println("Enter zoo name: ");
+    /*
+    System.out.println("Enter zoo name: ");
     zooName = sc.nextLine();
 
     System.out.println("enter number of cages");
@@ -22,6 +23,7 @@ public class ZooManagement {
 
     Zoo myZoo = new Zoo(animals,"myZoo","tunis",15);
 
+    System.out.println("Display Method");
     myZoo.Display();
 
     System.out.println(myZoo);
